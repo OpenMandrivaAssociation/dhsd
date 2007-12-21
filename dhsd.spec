@@ -8,6 +8,7 @@ URL:		http://dhsd.sourceforge.net
 
 Source:		%name-%version.tar.bz2
 
+BuildRoot:	%_tmppath/%name-buildroot
 
 %description
 DHSD is a small project spurned off the need for a proper updater for the 
