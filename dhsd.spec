@@ -32,8 +32,8 @@ the IP changes.
 %install
 rm -fr %buildroot
 
-#echo "prefix = %buildroot/%_prefix" >> $RPM_BUILD_DIR/dhsd-%{version}/src/Makefile.am
-#echo "sysconfdir = %buildroot/%_sysconfdir" >> $RPM_BUILD_DIR/dhsd-%{version}/scripts/Makefile.am
+#echo "prefix = %buildroot/%_prefix" >> %{_builddir}/dhsd-%{version}/src/Makefile.am
+#echo "sysconfdir = %buildroot/%_sysconfdir" >> %{_builddir}/dhsd-%{version}/scripts/Makefile.am
 
 %makeinstall
 mkdir -p %buildroot/%_sysconfdir/rc.d
