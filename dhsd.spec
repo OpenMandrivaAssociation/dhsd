@@ -1,7 +1,7 @@
 Summary:	A daemon that updates your DNS record in DHS.ORG whenever your IP changes
 Name:		dhsd
 Version:	1.0
-Release:	%mkrel 12
+Release:	13
 Group:		Networking/Other
 License:	GPLv2+
 URL:		http://dhsd.sourceforge.net
