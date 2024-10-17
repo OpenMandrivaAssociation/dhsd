@@ -4,7 +4,7 @@ Version:	1.0
 Release:	13
 Group:		Networking/Other
 License:	GPLv2+
-URL:		http://dhsd.sourceforge.net
+URL:		https://dhsd.sourceforge.net
 
 Source:		%name-%version.tar.bz2
 
