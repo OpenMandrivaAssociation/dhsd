@@ -10,6 +10,11 @@ Source:		%name-%version.tar.bz2
 
 BuildRoot:	%_tmppath/%name-buildroot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 DHSD is a small project spurned off the need for a proper updater for the 
 DHS.ORG dynamic DNS services. There has already existed scripts to do it made
